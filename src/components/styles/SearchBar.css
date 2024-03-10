@@ -1,0 +1,28 @@
+/* stylelint-disable */
+
+/* .header {
+  display: flex;
+  padding: 2rem;
+  justify-content: center;
+} */
+
+/* .mealsAndDrinks {
+  text-align: center;
+  padding: 10px;
+} */
+
+/* .h1s {
+  background-color: rgb(243, 118, 73);
+  border-radius: 5px;
+  padding: 10px;
+  border: solid black 1px;
+  box-shadow: 2px 2px;
+} */
+
+.backGround {
+  background-color: transparent;
+}
+
+.search {
+  color: #DAA520;
+}

@@ -1,0 +1,42 @@
+.divBtn {
+  padding: 10px;
+}
+
+.divMealss {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.ImgRecipess {
+  border: solid black 1px;
+  border-radius: 10px;
+}
+
+.divInformations {
+  display: inline-flex;
+  background-color: transparent;
+  justify-content: center;
+  padding: 10px;
+}
+
+.white {
+  color: aliceblue;
+  padding: 10px;
+}
+
+.sharedon {
+  color: aliceblue;
+  width: 130px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: transparent;
+  border: white solid 1px;
+  transition: 0.7s;
+}
+
+.sharedon:hover {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 1px 1px 15px white;
+  color: black;
+}

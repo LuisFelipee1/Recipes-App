@@ -1,0 +1,58 @@
+/* stylelint-disable */
+.listprofile {
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 4rem;
+  text-align: center;
+  background-color: transparent;
+  box-shadow: 1px 1px 15px black;
+}
+
+.nameProfile {
+  color: aliceblue;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+.imageIcon {
+  padding-right: 20px;
+}
+
+.btnsProfile {
+  width: 140px;
+  height: 50px;
+  border-radius: 10px;
+  border: solid 1px #DAA520;
+  background-color: transparent;
+  color: #DAA520;
+  transition: 0.7s;
+}
+
+.btnsProfile:hover {
+  background-color: #DAA520;
+  color: black;
+}
+
+.profileAll {
+  padding: 20px 100px;
+}
+
+.returnTop {
+  padding: 10px;
+  /* padding-left: 50px; */
+}
+
+.returnTop {
+  display: flex;
+  justify-content: center;
+}
+
+.imgReturns {
+  width: 50px;
+  color: #DAA520;
+  right: 30px;
+}

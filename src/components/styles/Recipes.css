@@ -1,0 +1,96 @@
+/* stylelint-disable */
+body {
+  background-image: linear-gradient(
+    45deg,
+    black,
+    #5c411c
+  );
+}
+
+.loading {
+  text-align: center;
+  color: #5c411c;
+}
+
+.imgs {
+  width: 100%;
+  max-width: 100%;
+  flex-grow: 1;
+  flex-basis: 400;
+  border-radius: 0px 0px 20px 20px;
+  transition: 1s;
+}
+
+.containers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.headers {
+  color: rgb(11, 11, 11);
+  background-color: #DAA520;
+  text-align: center;
+  padding: 15px;
+  border-radius: 20px 20px 0px 0px;
+  font-size: smaller;
+  font-weight: 600;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.meals {
+  width: 200px;
+  padding: 10px;
+}
+
+/* BOTÕES DE FILTRO */
+
+.btns {
+  justify-content: center;
+}
+
+.btn41-43 {
+  padding: 10px 25px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  background: transparent;
+  outline: none !important;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+}
+
+.btn-41 {
+  border: 2px solid #DAA520;
+  z-index: 1;
+  color: #DAA520;
+  border-radius: 6px;
+}
+
+.btn-41:after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 100%;
+  top: 0;
+  left: 0;
+  direction: rtl;
+  z-index: -1;
+  background: #DAA520;
+  transition: all 0.3s ease;
+}
+
+.btn-41:hover {
+  color: rgb(0, 0, 0);
+}
+
+.btn-41:hover:after {
+  left: auto;
+  right: 0;
+  width: 100%;
+}
+
+.btn-41:active {
+  top: 2px;
+}

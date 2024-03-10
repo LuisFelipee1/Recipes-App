@@ -1,0 +1,85 @@
+/* stylelint-disable */
+.ingre {
+  text-align: center;
+  border: solid 1px black;
+  border-radius: 10px;
+  padding: 10px;
+  background-size: 900px;
+  background-position: center;
+  background-image: url("https://img.freepik.com/fotos-premium/vista-superior-de-uma-mesa-de-cozinha-com-utensilios-de-ingredientes-e-um-livro-de-receitas-aberto_645697-7959.jpg?w=2000");
+}
+
+.details {
+  text-align: center;
+  padding: 5rem;
+}
+
+.header {
+  font-weight: 900;
+  padding: 10px 0px;
+  background-color: transparent;
+  box-shadow: 0 0 15px rgb(0, 0, 0);
+}
+
+.nameHead {
+  color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgb(0, 0, 0);
+  padding: 10px 0px 10px 0px;
+  font-size: xx-large;
+  width: 450px;
+  margin: auto;
+}
+
+.instru {
+  border: solid black 1px;
+  border-radius: 6px;
+  background-color: rgb(255, 224, 151);
+  padding: 20px;
+}
+
+.video {
+  width: 200px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+.imagem {
+  width: 100px;
+  border-radius: 6px;
+  border: solid 1px black;
+  padding: 10px;
+}
+
+.recomendado {
+  justify-content: center;
+  text-align: center;
+}
+
+.iniciar {
+  padding: 10px;
+}
+
+
+.recommendations {
+  padding: 10px;
+}
+
+.lineRECStart {
+  display: flex;
+} 
+
+.CardRecommend {
+  justify-content: center;
+  text-align: center;
+}
+
+.imgss {
+  padding: 10px 0px 0px 0px;
+}
+
+.category {
+  color: rgb(255, 255, 255);
+}
+
+

@@ -1,0 +1,14 @@
+.head {
+  justify-content: center;
+  padding: 20px;
+}
+
+.name, .nameDri {
+  color: #DAA520;
+  text-align: center;
+}
+
+.profileBar {
+  display: flex;
+  justify-content: center;
+}

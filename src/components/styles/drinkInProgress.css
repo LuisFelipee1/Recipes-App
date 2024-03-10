@@ -1,0 +1,106 @@
+body {
+  padding: 1rem;
+  justify-content: center;
+  text-align: center;
+}
+
+.nameDrink {
+  border: solid 1px black;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 0 15px rgb(0, 0, 0);
+  color: aliceblue;
+  font-size: xx-large;
+}
+
+.imageDrink {
+  width: 400px;
+  border-radius: 10px;
+  border: solid 1px #000000;
+  box-shadow: 0 0 15px rgb(0, 0, 0);
+}
+
+.divImg {
+  padding: 20px 5px;
+}
+
+.alcolic {
+  color: aliceblue;
+}
+
+.share {
+  width: 130px;
+  height: 50px;
+  transition: 0.7s;
+  background-color: transparent;
+  border-radius: 6px;
+  border: solid 1px black;
+  color: aliceblue;
+}
+
+.share:hover {
+  box-shadow: 0 0 15px rgb(0, 0, 0);
+  background-color: #DAA520;
+}
+
+.copied {
+  color: aliceblue;
+}
+
+.favorite {
+  width: 80px;
+  height: 50px;
+  transition: 0.7s;
+  background-color: transparent;
+  border-radius: 6px;
+  border: solid 1px black;
+  color: aliceblue;
+}
+
+.favorite:hover {
+  box-shadow: 0 0 15px rgb(0, 0, 0);
+  background-color: #ff0000;
+}
+
+.cardImg {
+  display: flex;
+  justify-content: center;
+}
+
+.btnss {
+  flex-direction: column;
+  padding: 50px;
+  padding-top: 100px;
+  /* border: black solid; */
+}
+
+.infoss {
+  background-color: transparent;
+  padding: 1rem;
+  border-radius: 15px;
+  border: #000000 solid 1px;
+  box-shadow: 0 0 15px #000000;
+  color: aliceblue;
+}
+
+.inputsCheck {
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.btnFinish {
+  width: 150px;
+  height: 40px;
+  border-radius: 10px;
+  border: solid 1px rgb(255, 255, 255);
+  background-color: transparent;
+  color: #ffffff;
+  transition: 1s;
+}
+
+.btnFinish:hover {
+  box-shadow: 0 0 30px #ffffff;
+  background-color: #ffffff;
+  color: #000000;
+}
