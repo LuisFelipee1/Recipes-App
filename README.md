@@ -23,5 +23,5 @@ Contribuições são bem-vindas! Se você deseja contribuir com este projeto, si
 </div>
 
 <h1>Autor</h1>
-Luis Felipe - Desenvolvedor de FullStack
+Luis Felipe - Desenvolvedor FullStack
 
